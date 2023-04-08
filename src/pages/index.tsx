@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
@@ -5,7 +6,7 @@ import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FaBlogger } from 'react-icons/Fa';
 import { RxGithubLogo } from 'react-icons/Rx';
-import Image from 'next/image';
+
 import deved from '../../public/dev-ed-wave.png';
 import design from '../../public/design.png';
 import code from '../../public/code.png';
@@ -95,7 +96,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -180,7 +181,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
